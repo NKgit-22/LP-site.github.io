@@ -365,7 +365,7 @@ footer{
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     padding-bottom: 30px;
-    width: 700px;
+    width: 100%;
 }
 
 .flower4{
@@ -413,6 +413,9 @@ footer{
 .voices > .triangle > img, .voices > .triangle-turn > img{
     width: 520px;
     height: 320px;
+    position: absolute;
+    right: 0;
+    object-position: 35px 0px;
 }
 
 .voices > h5{
