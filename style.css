@@ -299,19 +299,19 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    width: 940px;
+    width: 90%;
     border: 3px solid #BA2636;
 }
 
 .method img{
-    width: 320px;
+    width: 30%;
     height: 220px;
 }
 
 .how-to{
     display: block;
     background-color: #FFFFFF;
-    width: 580px;
+    width: 70%;
     height: 180px;
     padding: 20px;
     position: relative;
@@ -738,6 +738,10 @@ footer{
         background-color: #BA2636;
     }
 
+    .method img{
+        width: 320px;
+    }
+
     .how-to{
         display: block;
         background-color: #FFFFFF;
@@ -874,20 +878,11 @@ footer{
         height: 1100px;
     }
 
-    .method{
-        width: 90%;
-    }
-
     .method img{
         height: 260px;
     }
 
-    .padding-tablet{
-        padding: 20px 33px;
-    }
-
     .how-to{
-        width: auto;
         height: 220px;
     }
 
