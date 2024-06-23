@@ -108,9 +108,8 @@ footer{
 }
 
 .title{
-    top: 50%;
-    left: 20%;
-    transform: translate(-20%, -50%);
+    top: 25%;
+    left: 10%;
     position: absolute;
 }
 
@@ -521,6 +520,33 @@ footer{
     gap: 20px;
 }
 
+.fadein {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: opacity 1s,visibility 1s, transform 1s;
+}
+
+.fadein-right {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(30px);
+    transition: opacity 4s,visibility 2s, transform 2s;
+}
+
+.fadein-left {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-30px);
+    transition: opacity 4s,visibility 2s, transform 2s;
+}
+
+.scroll {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
 /* モバイル版*/
 @media (max-width: 750px){
     body{
@@ -874,15 +900,19 @@ footer{
     }
 
     .order{
-        height: 1100px;
+        height: 1000px;
+    }
+
+    .method{
+        width: 95%;
     }
 
     .method img{
-        height: 260px;
+        height: 220px;
     }
 
     .how-to{
-        height: 220px;
+        height: 180px;
     }
 
     .flower4{
