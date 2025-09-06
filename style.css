@@ -756,6 +756,10 @@ footer{
         padding: 40px 80px;
     }
 
+    .wt_box>.contents-name{
+        padding: 0;
+    }
+
     .method {
         display: block;
     }
