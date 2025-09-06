@@ -972,6 +972,10 @@ footer{
         padding: 30px 40px;
     }
 
+    .wt_box>.contents-name{
+        padding: 0;
+    }
+
     .fee{
         padding: 0;
     }
